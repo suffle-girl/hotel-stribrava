@@ -12,6 +12,13 @@ img {
   border-radius: 0.5rem;
 }
 
+.Form-title,
+.Form-info  {
+  color: rgb(0, 0, 0);
+}
+
+
+
 .columns-2 {
   display: grid;
   grid-template-columns: 1fr;
