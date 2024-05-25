@@ -6,7 +6,7 @@ import pokoj03 from "./img/pokoj03.jpg";
 import pokoj04 from "./img/pokoj04.jpg";
 import pokoj05 from "./img/pokoj05.jpg";
 
-export const Rooms = () => {
+export const Rooms = ({title, photo, price}) => {
   return (
     <section className="dark">
     <div className="container">
@@ -15,7 +15,7 @@ export const Rooms = () => {
         Vyberte si, který z našich pokojů je pro Vás ten pravý.
       </p>
       <div className="cards-row">
-        <OneRoom title={"Úkryt"} photo={pokoj01} price={"450 Kč na osobu"}/>
+        <OneRoom title={title} photo={photo} price={price}/>
         <OneRoom title={"Základ"} photo={pokoj02} price={"700 Kč na osobu"}/>
         <OneRoom title={"Klasik"} photo={pokoj03} price={"1200 Kč na osobu"}/>
         <OneRoom title={"Komfort"} photo={pokoj04} price={"2500 Kč na osobu"}/>

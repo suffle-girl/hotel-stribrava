@@ -8,7 +8,7 @@ export const Form = () => {
         <h2 className="Form-title">Tady bude props s nadpisem pokoje</h2>
         <div className="columns-2">
           <div className="column">
-            <img src="img/image1.svg" />
+            <img src="" />
             <p className="Form-info">
               Tady taky bude props s popisem pokoje.
               Tady taky bude props s popisem pokoje.
